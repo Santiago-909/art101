@@ -7,7 +7,6 @@
     border: solid 1px #888;
     background-color: #ef05e8;
   }
-
-p { 
-  font-family: fantasy;
+.main-section { 
+  color: blue;
 }
