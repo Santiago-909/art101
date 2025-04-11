@@ -7,15 +7,7 @@
     border: solid 1px #888;
     background-color: #4f05ef74;
   }
-title {
-  font-family: fantasy;
+#heading{
   font-size: xx-large;
 }
-
-h1 {
-  font-size: xx-large;
-}
-
-p {
-  font-family: monospace;
-}
+  
