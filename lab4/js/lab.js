@@ -1,6 +1,6 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 5 JS
+// Author: Santiago Meza
+// Date: 4-22-2025
 
 // Constants
 
@@ -19,3 +19,23 @@ function main() {
 
 // let's get this party started
 main();
+
+
+// define variables 
+myMake = "Volkswagen";
+
+myModel = "Jetta";
+
+myColor = "Gray";
+
+year = "2006";
+
+//calculate 
+age = 2025 - year; 
+
+//output 
+document.writeln("myMake: " + myMake + "<br>");
+document.writeln("myModel: " + myModel + "<br>");
+document.writeln("myColor: " + myColor + "<br>");
+document.writeln("year: " + year + "<br>"); 
+document.writeln("age: " + age + "<br>"); 
