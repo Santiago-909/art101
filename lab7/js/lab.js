@@ -5,6 +5,7 @@
 
 // array of my numbers
 const numArray = [2, 19, 74, 66, 909] 
+console.log("My Array", numArray)
 
 // function that will multiply numbers by 7.2
 function paperbackWriter (x) { 
@@ -15,6 +16,7 @@ function paperbackWriter (x) {
 paperbackWriter (4) 
 
 paperbackWriter (909) 
+console.log("909", paperbackWriter(909))
 
 paperbackWriter (8)
 
@@ -22,15 +24,19 @@ paperbackWriter (8)
 numArray.map(paperbackWriter)
 
 // new anon function that divides numbers by 0.9
-numArray.map(function(x){ 
+var result = numArray.map(function(x){ 
   return x % 0.9 ;
 }) 
-
+console.log("Divided by 0.9", result)
 //names variable
+
+
+
 var mapResults = numArray.map (paperbackWriter); 
 
 
 //shows results
+
 console.log ("Results" , mapResults)
 
 
