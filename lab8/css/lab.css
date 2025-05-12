@@ -8,9 +8,23 @@
     background-color: #DDD8C4;
   }
 
-  .minor-section  {
+  .challenge  {
     background-color: blueviolet;
     border: dotted 50px rgb(0, 4, 255);
     color: pink;
     font-weight: bold;
+}
+.Problems  {
+  background-color: blueviolet;
+  border: dotted 50px rgb(0, 4, 255);
+  color: pink;
+  font-weight: bold;
+}
+
+
+.Reflection  {
+  background-color: blueviolet;
+  border: dotted 50px rgb(0, 4, 255);
+  color: pink;
+  font-weight: bold;
 }

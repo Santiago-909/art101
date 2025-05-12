@@ -3,51 +3,6 @@
 // Date: 5-6-2025
 
 
-// array of my numbers
-const numArray = [2, 19, 74, 66, 909] 
-console.log("My Array", numArray)
-
-// function that will multiply numbers by 7.2
-function paperbackWriter (x) { 
-  return (x * 7.2)
-} 
-
-//function testing
-paperbackWriter (4) 
-
-paperbackWriter (909) 
-console.log("909", paperbackWriter(909))
-
-paperbackWriter (8)
-
-//will sort numbers based on the paperbackWriter function
-numArray.map(paperbackWriter)
-
-// new anon function that divides numbers by 0.9
-var result = numArray.map(function(x){ 
-  return x % 0.9 ;
-}) 
-console.log("Divided by 0.9", result)
-//names variable
-
-
-
-var mapResults = numArray.map (paperbackWriter); 
-
-
-//shows results
-
-console.log ("Results" , mapResults)
-
-
-$("#output").html(mapResults)
-
-
-
-
-
-
-
 
 
 
@@ -64,6 +19,21 @@ function main() {
 }
 
 
+
+
+// add button to challenge section 
+$(".challenge").append("<button id='button challenge'>Make Special</button>"); 
+
+
+$(".Problems").append("<button id='button challenge'>Make Special</button>"); 
+
+$(".Reflection").append("<button id='button challenge'>Make Special</button>"); 
+
+// add a click listener to the challenge button
+$("#challenge").click(function(){
+  // now add (or subtract) the "special" class to the section
+  $("#challenge").toggleClass("#challenge");
+});
 
 
 // let's get this party started
