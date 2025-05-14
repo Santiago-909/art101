@@ -18,6 +18,10 @@ function main() {
   // the code that makes everything happen
 }
 
+$("#beatles").click(function(){
+  $(".challenge").toggleClass("challenge")
+})
+
 
 
 
@@ -32,7 +36,7 @@ $(".Reflection").append("<button id='button challenge'>Make Special</button>");
 // add a click listener to the challenge button
 $("#challenge").click(function(){
   // now add (or subtract) the "special" class to the section
-  $("#challenge").toggleClass("#challenge");
+  $("#challenge").toggleClass("challenge");
 });
 
 

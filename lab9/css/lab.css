@@ -8,18 +8,18 @@
     background-color: #DDD8C4;
   }
 
-.challenge {
-    color: green;
-    background: lavender; 
+  .challenge  {
     padding: 10px;
-    border: dotted blue 10px; 
-  }
-
+    margin-bottom: 10px;
+    border: dashed 5px #888;
+    background-color: #DDD8C4;
+}
 .Problems  {
   background-color: blueviolet;
-  border: dotted 50px rgb(0, 4, 255);
+  border: dashed 20px rgb(5, 5, 5);
   color: pink;
-  font-weight: bold;
+  padding: 10px;
+  font-weight: italic;
 }
 
 
@@ -27,5 +27,6 @@
   background-color: blueviolet;
   border: dotted 50px rgb(0, 4, 255);
   color: pink;
+  padding: 15px;
   font-weight: bold;
 }
