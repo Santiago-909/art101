@@ -3,11 +3,6 @@
 // Date: 5-13-2025
 
 
-$("#beatles").click(function(){
-  $("paul").toggleClass("special")
-})
-
-
 function generateRandomText() {
   const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
   const min = 3;
@@ -20,8 +15,8 @@ function generateRandomText() {
 }
 
 // click listener for button
-$(".make-convo").click(function(generateRandomText){
-});
+$("make-convo").click(function(generateRandomText){
+}); 
 
 
 
