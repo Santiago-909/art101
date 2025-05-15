@@ -29,3 +29,10 @@
   color: pink;
   font-weight: bold;
 }
+
+
+
+#test { 
+  color: white;
+  border: dotted 10px;
+}
